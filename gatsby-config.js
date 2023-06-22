@@ -2,10 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix:"/ruusara.github.io",
+  pathPrefix:"/official",
   siteMetadata: {
     title: `Ruusara`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://rusara2023.github.io/official`
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
