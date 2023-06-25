@@ -1,11 +1,15 @@
 import React from "react";
-import NavBar from "./topnav";
+import TopNav from "./TopNav";
 
-function homeLayout({ children }) {
-  return <div  style={{backgroundColor:'#0D0D0D'}} className="bg-dark w-screen h-screen overflow-hidden scroll-auto bg-gray-800">
-    <NavBar/>
-    {children}
-    </div>;
+function HomeLayout({ children }) {
+  return (
+    <div className="bg-neutral-950 w-screen h-screen overflow-hidden overflow-y-auto">
+      <TopNav />
+
+      {children}
+    
+    </div>
+  );
 }
 
-export default homeLayout;
+export default HomeLayout;

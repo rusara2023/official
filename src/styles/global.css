@@ -1,15 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap');
 * {
     outline: none !important;
-    font-family: 'Baskervville', serif !important;
+    /* font-family: 'Baskervville', serif; */
+    font-family: 'Bellefair', serif;
+}
 
+.animate {
+ @apply transition duration-300 ease-in-out transform
 }
-.bg-dark {
-    background-color: "#0D0D0D" !important;
+
+.font-round {
+    font-family: 'Poppins', sans-serif;
 }
-.text-gray {
-    color: "#727272";
+main {
+@apply  container mx-auto p-4
 }
