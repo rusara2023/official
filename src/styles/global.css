@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+* {
+    outline: none !important;
+    font-family: 'Baskervville', serif !important;
+
+}
+.bg-dark {
+    background-color: "#0D0D0D" !important;
+}
+.text-gray {
+    color: "#727272";
+}
