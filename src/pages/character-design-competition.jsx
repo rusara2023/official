@@ -14,6 +14,11 @@ const IndexPage = () => {
       <main>
         <section className="text-white text-lg font-round">
           <MainTitle title="Character Design Competition" />
+          <p className=" text-white text-justify text-lg font-round my-8">
+            Character designing in vector art is the process of creating unique and visually appealing characters using vector-based software.In character
+            designing, artists use vector tools to craft distinct features, shapes, and proportions for each character. It empowers artists to bring their
+            imaginative ideas to life and captivate audiences with visually compelling and memorable characters.
+          </p>
           <h4 className="text-3xl text-white underline">තරඟ නීති සහ රෙගුලාසි</h4>
           <p className=" text-white text-justify text-lg font-round mt-8">
             තරඟයට සහභාගි වන සියළු තරඟකරුවන් තරඟ නීති රීතී සියල්ල හොඳින් කියවා අවබෝධ කරගත යුතුය.
@@ -53,12 +58,12 @@ const IndexPage = () => {
             </li>
           </ul>
         </section>
-          <br />
-          <a href={PDF} download="Character Design Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
-            Download Rules
-          </a>
-          <br />
-          <br />
+        <br />
+        <a href={PDF} download="Character Design Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
+          Download Rules
+        </a>
+        <br />
+        <br />
         <Judges />
       </main>
     </HomeLayout>

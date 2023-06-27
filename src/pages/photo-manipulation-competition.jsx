@@ -13,6 +13,12 @@ const IndexPage = () => {
       <main>
         <section className="text-white text-lg font-round">
           <MainTitle title="Photo Manipulation Competition" />
+          <p className=" text-white text-justify text-lg font-round my-8">
+            Photo manipulation is the art of digitally altering or enhancing images to create stunning, imaginative, and sometimes surreal compositions. By
+            utilizing advanced software tools, photographers and artists can add, remove, or modify elements within a photograph, giving rise to captivating
+            visual narratives. Photo manipulation unleashes creativity and enables the transformation of ordinary images into extraordinary works of art,
+            blurring the boundaries between reality and imagination.
+          </p>
           <h4 className="text-3xl text-white underline">තරඟ නීති සහ රෙගුලාසි</h4>
           <p className=" text-white text-justify text-lg font-round mt-8">
             තරඟයට සහභාගි වන සියළු තරඟකරුවන් තරඟ නීති රීතී සියල්ල හොඳින් කියවා අවබෝධ කරගත යුතුය.

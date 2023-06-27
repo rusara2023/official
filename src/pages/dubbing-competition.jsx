@@ -15,6 +15,11 @@ const IndexPage = () => {
         <section className="text-white text-lg font-round">
           <MainTitle title="Dubbing Competition" />
 
+          <p className=" text-white text-justify text-lg font-round my-8">
+            Dubbing is the art of replacing the voices in a film or TV show with translated dialogue in a different language. It enables viewers to understand
+            and enjoy content without relying on subtitles.Dubbing brings global entertainment to diverse audiences, breaking down language barriers and
+            fostering cultural exchange.
+          </p>
           <h4 className="text-3xl text-white underline">තරඟ නීති සහ රෙගුලාසි</h4>
           <p className=" text-white text-justify text-lg font-round mt-8">
             තරඟයට සහභාගි වන සියළු තරඟකරුවන් තරඟ නීති රීතී සියල්ල හොඳින් කියවා අවබෝධ කරගත යුතුය.
