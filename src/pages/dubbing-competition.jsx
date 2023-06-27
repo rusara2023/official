@@ -5,7 +5,8 @@ import { AppContext } from "../context/context";
 import E1 from "../images/e4.jpg";
 import MainTitle from "../components/Title";
 import Judges from "../components/judges";
-
+import PDF from "../docs/Dubbing-rules.pdf";
+import { Button } from "@material-tailwind/react";
 const IndexPage = () => {
   return (
     <HomeLayout>
@@ -51,6 +52,12 @@ const IndexPage = () => {
               ● උඩුගත කිරීමට ප්‍රථමව අපගේ වෙබ් අඩවිය (https://rusara2023.github.io/official/) ඇති ගූගල් ෆෝරමය පුරවා ඒ හරහා zip ගොනුව උඩුගත කල යුතුය.
             </li>
           </ul>
+          <br />
+          <a href={PDF} download="Dubbing Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
+            Download Rules
+          </a>
+          <br />
+          <br />
         </section>
         <Judges />
       </main>

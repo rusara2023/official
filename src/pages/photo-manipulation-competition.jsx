@@ -5,6 +5,7 @@ import { AppContext } from "../context/context";
 import E2 from "../images/e5.jpg";
 import Judges from "../components/judges";
 import MainTitle from "../components/Title";
+import PDF from "../docs/Photo Manipulation-rules.pdf";
 const IndexPage = () => {
   return (
     <HomeLayout>
@@ -47,6 +48,12 @@ const IndexPage = () => {
             </li>
           </ul>
         </section>
+        <br />
+        <a href={PDF} download="Photo Manipulation Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
+          Download Rules
+        </a>
+        <br />
+        <br />
         <Judges />
       </main>
     </HomeLayout>

@@ -5,14 +5,15 @@ import { AppContext } from "../context/context";
 import E1 from "../images/e6.jpg";
 import Judges from "../components/judges";
 import MainTitle from "../components/Title";
+import PDF from "../docs/Character Designing-rules.pdf";
 const IndexPage = () => {
   return (
     <HomeLayout>
-      <img src={E1} alt="Dubbing Competition" className=" w-full aspect-video max-h-[50vh] object-cover object-center" />
+      <img src={E1} alt="Character Design Competition" className=" w-full aspect-video max-h-[50vh] object-cover object-center" />
 
       <main>
         <section className="text-white text-lg font-round">
-          <MainTitle title="Comic Character Design Competition" />
+          <MainTitle title="Character Design Competition" />
           <h4 className="text-3xl text-white underline">තරඟ නීති සහ රෙගුලාසි</h4>
           <p className=" text-white text-justify text-lg font-round mt-8">
             තරඟයට සහභාගි වන සියළු තරඟකරුවන් තරඟ නීති රීතී සියල්ල හොඳින් කියවා අවබෝධ කරගත යුතුය.
@@ -52,6 +53,12 @@ const IndexPage = () => {
             </li>
           </ul>
         </section>
+          <br />
+          <a href={PDF} download="Character Design Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
+            Download Rules
+          </a>
+          <br />
+          <br />
         <Judges />
       </main>
     </HomeLayout>

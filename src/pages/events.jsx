@@ -37,11 +37,11 @@ const IndexPage = () => {
                   </h4>
                 </div>
               </Link>
-              <Link to="/comic-character-design-competition" className="w-full relative overflow-hidden group animate">
-                <img src={E3} alt="Comic Character Design Competition" className="w-full" />
+              <Link to="/character-design-competition" className="w-full relative overflow-hidden group animate">
+                <img src={E3} alt="Character Design Competition" className="w-full" />
                 <div className="bg-black bg-opacity-75 w-full absolute -bottom-20 left-0 h-56 animate group-hover:-translate-y-12 p-4 pt-12">
                   <h4 className="text-center text-white text-3xl lg:text-4xl animate group-hover:scale-105">
-                    {isEng ? "Comic Character Design Competition" : "ඩිජිටල් චරිත සිතුවම් නිර්මාණ තරඟාවලිය"}
+                    {isEng ? "Character Design Competition" : "ඩිජිටල් චරිත සිතුවම් නිර්මාණ තරඟාවලිය"}
                   </h4>
                 </div>
               </Link>

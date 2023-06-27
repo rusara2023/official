@@ -21,7 +21,11 @@ function Footer() {
           <div className="grid grid-cols-1 gap-4 text-white">
             <h6 className="text-lg">REACH US</h6>
             <p className="font-round">Email : ruusara2023@gmail.com</p>
-            <p className="font-round">Mobile : 07XXXXXXXX</p>
+            <p className="font-round">Mobile :</p>
+            <p className="font-round ml-4">076 916 2111 (රශ්මි විරාජිත)</p>
+            <p className="font-round ml-4">076 976 5143 (පෙතුම් දිල්හාර)</p>
+            <p className="font-round ml-4">071 785 2409 (නිමේශා සෝමතිලක)</p>
+            <p className="font-round ml-4">071 951 9419 (දෙෂාරා ගමගේ)</p>
           </div>
         </main>
       )}

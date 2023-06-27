@@ -10,11 +10,22 @@ const IndexPage = () => {
       <main>
         <section>
           <MainTitle title="Contact Us" />
-          {/* <p className=" text-white text-justify text-lg font-round mt-24">
-            “Roosara-2023, The Digital Art Competition” is organized for the second consecutive time as one of the events which is organized along with “Let My
-            Country Awake”, The Students’ Festival of Literature organized by the Literary Subcommittee of University of Peradeniya. This competition consists
-            of three main categories which are Dubbing, Photo Manipulation, and Comic Character Creation.
-          </p> */}
+          <div className="grid grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+            <p className=" text-white text-justify text-lg font-round col-span-2 p-2 ">Official Email</p>
+            <p className=" text-white text-justify text-lg font-round p-2 col-span-2 lg:col-span-1">ruusara2023@gmail.com</p>
+            <p className=" text-white text-justify text-lg font-round col-span-2 lg:col-span-1 p-2 bg-gray-900">රශ්මි විරාජිත</p>
+            <p className=" text-white text-justify text-lg font-round p-2 bg-gray-900">076 916 2111</p>
+            <p className=" text-white text-justify text-lg font-round p-2 bg-gray-900">virajithagar101@gmail.com</p>
+            <p className=" text-white text-justify text-lg font-round col-span-2 lg:col-span-1 p-2">පෙතුම් දිල්හාර</p>
+            <p className=" text-white text-justify text-lg font-round p-2">076 976 5143</p>
+            <p className=" text-white text-justify text-lg font-round p-2">pethum22551@gmail.com</p>
+            <p className=" text-white text-justify text-lg font-round col-span-2 lg:col-span-1 p-2 bg-gray-900">නිමේශා සෝමතිලක</p>
+            <p className=" text-white text-justify text-lg font-round p-2 bg-gray-900">071 785 2409</p>
+            <p className=" text-white text-justify text-lg font-round p-2 bg-gray-900">nimeshasomathilaka@gmail.com</p>
+            <p className=" text-white text-justify text-lg font-round col-span-2 lg:col-span-1 p-2">දෙෂාරා ගමගේ</p>
+            <p className=" text-white text-justify text-lg font-round p-2">071 951 9419</p>
+            <p className=" text-white text-justify text-lg font-round p-2">desharadoyuni22@gmail.com</p>
+          </div>
         </section>
       </main>
     </HomeLayout>

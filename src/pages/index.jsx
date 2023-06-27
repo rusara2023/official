@@ -46,7 +46,7 @@ const IndexPage = () => {
                     {isEng
                       ? ` “Roosara-2023, The Digital Art Competition” is organized for the third consecutive time as one of the events which is organized along with
                     “Let My Country Awake”, The Students’ Festival of Literature organized by the Literary Subcommittee of University of Peradeniya. This
-                    competition consists of three main categories which are Dubbing, Photo Manipulation, and Comic Character Creation.`
+                    competition consists of three main categories which are Dubbing, Photo Manipulation, and Character Creation.`
                       : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙලට සමගාමීව, පේරාදෙණිය විශ්ව විද්‍යාලීය ඉංජිනේරු පීඨය විසින් "රූසර ඩිජිටල් නිර්මාණ තරඟාවලිය" තෙවන වරට සංවිධානය කරනු ලබයි. තරඟාවලිය හඬ කැවීම්, ඡායාරූප සැකසීම්, ඩිජිටල් චරිත සිතුවම් නිර්මාණය යන ප්‍රධාන තරඟ අංශ යටතේ පැවැත්වේ.`}
                   </p>
 
@@ -79,11 +79,11 @@ const IndexPage = () => {
                     </h4>
                   </div>
                 </Link>
-                <Link to="comic-character-design-competition" className="w-full relative overflow-hidden group animate">
-                  <img src={E3} alt="Comic Character Design Competition" className="w-full" />
+                <Link to="character-design-competition" className="w-full relative overflow-hidden group animate">
+                  <img src={E3} alt="Character Design Competition" className="w-full" />
                   <div className="bg-black bg-opacity-75 w-full absolute -bottom-20 left-0 h-56 animate group-hover:-translate-y-12 p-4 pt-12">
                     <h4 className="text-center text-white text-3xl lg:text-4xl animate group-hover:scale-105">
-                      {isEng ? "Comic Character Design Competition" : "ඩිජිටල් චරිත සිතුවම් නිර්මාණ තරඟාවලිය"}
+                      {isEng ? "Character Design Competition" : "ඩිජිටල් චරිත සිතුවම් නිර්මාණ තරඟාවලිය"}
                     </h4>
                   </div>
                 </Link>
