@@ -11,7 +11,7 @@ function Footer() {
           <div className="text-white lg:col-span-2">
             <h6 className="text-3xl">{isEng ? "LITERRARY SUBCOMMITTEE OF UNIVERSITY OF PERADENIYA" : "සාහිත්‍ය අනුකමිටුව"}</h6>
             <p className="text-lg">
-              {isEng ? " “Let my country be awake”, The Students’ Festival of Literature - 2023" : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙල - 2022`}
+              {isEng ? " “Let my country be awake”, The Students’ Festival of Literature - 2023" : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙල - 2023`}
               <br />
               {isEng?"Peradeniya Students’ Union, Literary Subcommittee of":"මහා ශිෂ්‍ය සංගමය, සාහිත්‍ය අනුකමිටුව,"}
               <br />
@@ -22,10 +22,10 @@ function Footer() {
             <h6 className="text-lg">REACH US</h6>
             <p className="font-round">Email : ruusara2023@gmail.com</p>
             <p className="font-round">Mobile :</p>
-            <p className="font-round ml-4">076 916 2111 (රශ්මි විරාජිත)</p>
-            <p className="font-round ml-4">076 976 5143 (පෙතුම් දිල්හාර)</p>
-            <p className="font-round ml-4">071 785 2409 (නිමේශා සෝමතිලක)</p>
-            <p className="font-round ml-4">071 951 9419 (දෙෂාරා ගමගේ)</p>
+            <p className="font-round ml-4">076 916 2111 (Rashmi Virajitha)</p>
+            <p className="font-round ml-4">076 976 5143 (Pethum Dilhara)</p>
+            <p className="font-round ml-4">071 785 2409 (Nimesha Somathilaka)</p>
+            <p className="font-round ml-4">071 951 9419 (Deshara Gamage)</p>
           </div>
         </main>
       )}

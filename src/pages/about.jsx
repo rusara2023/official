@@ -25,6 +25,33 @@ const IndexPage = () => {
                       : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙලට සමගාමීව, පේරාදෙණිය විශ්ව විද්‍යාලීය ඉංජිනේරු පීඨය විසින් "රූසර ඩිජිටල් නිර්මාණ තරඟාවලිය" තෙවන වරට සංවිධානය කරනු ලබයි. තරඟාවලිය හඬ කැවීම්, ඡායාරූප සැකසීම්, ඩිජිටල් චරිත සිතුවම් නිර්මාණය යන ප්‍රධාන තරඟ අංශ යටතේ පැවැත්වේ.`}
                   </p>
 
+                  <h2 className="text-white text-3xl mt-8 mb-4">{isEng ? "Objectives" : "අරමුණු"}</h2>
+
+                  <p className=" text-white text-justify text-lg font-round">
+                    {isEng
+                      ? `1. Improve technical and aesthetic knowledge and interest in digital art.`
+                      : `1. ඩිජිටල් කලාව පිළිබඳ තාක්ෂණික හා සෞන්දර්යාත්මක දැනුම හා උනන්දුව වැඩිදියුණු කිරීම.`}
+                  </p>
+                  <p className=" text-white text-justify text-lg font-round">
+                    {isEng
+                      ? `2. Develop creativity.`
+                      : `2. නිර්මාණශීලීත්වය වර්ධනය කිරීම.`}
+                  </p>
+                  <p className=" text-white text-justify text-lg font-round">
+                    {isEng
+                      ? `3. Developing capabilities in digital art.`
+                      : `3. ඩිජිටල් කලාව පිළිබඳ හැකියාවන් වර්ධනය කිරීම.`}
+                  </p>
+                  <p className=" text-white text-justify text-lg font-round">
+                    {isEng
+                      ? `4. Enjoy and appreciate various types of digital arts.`
+                      : `4. නොයෙක් වර්ගයේ ඩිජිටල් කලාවන් රසවිඳීම හා අගය කිරීම.`}
+                  </p>
+                  <p className=" text-white text-justify text-lg font-round">
+                    {isEng
+                      ? `5. Introducing and encouraging young designers.`
+                      : `5. තරුණ නිර්මාණකරුවන් හදුන්වාදීම හා ඔවුන්ම දිරිමත් කීරිම.`}
+                  </p>
                   {/* <Link to="/about" className="animate group text-white text-3xl relative">
                 <p className="z-50 group-hover:translate-x-12 animate">Read More</p>
                 <div className="-z-10 w-24 h-24 rounded-full bg-neutral-900 opacity-40 absolute -top-4 -left-4 group-hover:scale-150 animate"></div>
