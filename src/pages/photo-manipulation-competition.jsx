@@ -6,6 +6,8 @@ import E2 from "../images/e5.jpg";
 import Judges from "../components/judges";
 import MainTitle from "../components/Title";
 import PDF from "../docs/Photo Manipulation-rules.pdf";
+import { Link } from "gatsby";
+
 const IndexPage = () => {
   return (
     <HomeLayout>
@@ -58,6 +60,16 @@ const IndexPage = () => {
         <a href={PDF} download="Photo Manipulation Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
           Download Rules
         </a>
+        <br />
+        <br />
+          <div className="w-full flex justify-center">
+          <Link
+            to="/register"
+            className="bg-red-800 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 mx-auto cursor-pointer hover:shadow-lg shadow-red-400"
+          >
+            Register Now
+          </Link>
+        </div>
         <br />
         <br />
         <Judges />

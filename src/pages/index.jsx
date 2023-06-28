@@ -37,7 +37,13 @@ const IndexPage = () => {
                 <img src={IMG1} alt="Ruusara 2023" className="w-full absolute bottom-0 right-0 animate group-hover:scale-110" />
               </div>
             </section>
+
             <section className="mt-48">
+              <div className="w-full my-8 flex justify-center">
+                <Link to="/register" className="bg-red-800 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 mx-auto cursor-pointer hover:shadow-lg shadow-red-400">
+                  Register Now
+                </Link>
+              </div>
               <SectionTitle title={"About Us"} />
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full py-4">
                 <img src={IMG2} alt="Ruusara 2023" className="max-h-96 object-scale-down object-center" />

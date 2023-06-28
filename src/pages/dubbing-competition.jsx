@@ -7,6 +7,8 @@ import MainTitle from "../components/Title";
 import Judges from "../components/judges";
 import PDF from "../docs/Dubbing-rules.pdf";
 import { Button } from "@material-tailwind/react";
+import { Link } from "gatsby";
+
 const IndexPage = () => {
   return (
     <HomeLayout>
@@ -63,6 +65,16 @@ const IndexPage = () => {
           </a>
           <br />
           <br />
+            <div className="w-full flex justify-center">
+          <Link
+            to="/register"
+            className="bg-red-800 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 mx-auto cursor-pointer hover:shadow-lg shadow-red-400"
+          >
+            Register Now
+          </Link>
+        </div>
+        <br />
+        <br />
         </section>
         <Judges />
       </main>

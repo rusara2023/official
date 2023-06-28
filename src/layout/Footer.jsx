@@ -24,8 +24,8 @@ function Footer() {
             <p className="font-round">Mobile :</p>
             <p className="font-round ml-4">076 916 2111 (Rashmi Virajitha)</p>
             <p className="font-round ml-4">076 976 5143 (Pethum Dilhara)</p>
-            <p className="font-round ml-4">071 785 2409 (Nimesha Somathilaka)</p>
-            <p className="font-round ml-4">071 951 9419 (Deshara Gamage)</p>
+            {/* <p className="font-round ml-4">071 785 2409 (Nimesha Somathilaka)</p>
+            <p className="font-round ml-4">071 951 9419 (Deshara Gamage)</p> */}
           </div>
         </main>
       )}
