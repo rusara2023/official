@@ -24,7 +24,7 @@ const IndexPage = () => {
                   {isEng ? "“LET MY COUNTRY AWAKE”" : '"මාගේ දේශය අවදි කරනු මැන"'}
                 </h1>
                 <h2 className="text-white text-center mt-8 md:text-left text-3xl md:text-5xl xl:text-7xl">
-                  {isEng ? "THE STUDENT'S FESTIVAL OF LITERATURE 2023" : "ශිෂ්‍ය සාහිත්‍යය උළෙල 2022"}
+                  {isEng ? "THE STUDENT'S FESTIVAL OF LITERATURE 2023" : "ශිෂ්‍ය සාහිත්‍යය උළෙල 2023"}
                 </h2>
               </div>
               <div className="relative h-96 md:h-screen lg:h-auto group animate">
