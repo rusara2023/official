@@ -9,9 +9,9 @@ function Footer() {
         <main className="py-8 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center">
           <img src={UOP} alt="" className="w-full aspect-square object-scale-down object-center" />
           <div className="text-white lg:col-span-2">
-            <h6 className="text-3xl">{isEng ? "LITERRARY SUBCOMMITTEE OF UNIVERSITY OF PERADENIYA" : "සාහිත්‍ය අනුකමිටුව"}</h6>
+            <h6 className="text-3xl">{isEng ? " “Let my country be awake” The Students’ Festival of Literature - 2023" : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙල - 2023`}</h6>
             <p className="text-lg">
-              {isEng ? " “Let my country be awake”, The Students’ Festival of Literature - 2023" : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙල - 2023`}
+              {/* {isEng ? " “Let my country be awake”, The Students’ Festival of Literature - 2023" : `"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උළෙල - 2023`} */}
               <br />
               {isEng?"Peradeniya Students’ Union, Literary Subcommittee of":"මහා ශිෂ්‍ය සංගමය, සාහිත්‍ය අනුකමිටුව,"}
               <br />
