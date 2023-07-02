@@ -36,10 +36,15 @@ const IndexPage = () => {
               </p>
               {isEng ? (
                 <ul className="mt-4 ml-4">
-                  <li className="mt-2">● Must register on the website and get a number before the due date.</li>
+                  <li className="mt-2">
+                    ● Before uploading you need to register through our website (https://rusara2023.github.io/official/) and get a registration number. (Future
+                    updates will be communicated through WhatsApp)
+                  </li>
 
                   <li className="mt-2">● Your voiceover script must be your own creation.</li>
-                  <li className="mt-2">● Take one video from each category posted on our website and dub for one video clip per category.</li>
+                  <li className="mt-2">
+                    ● You can do dubbing for any 2 videos you like through 2 sections, dubbing cartoon characters and dubbing human characters.
+                  </li>
                   <li className="mt-2">● Videos should not be edited or otherwise modified.</li>
                   <li className="mt-2">
                     ● If previous dialogues (Copyright content) have been used for voiceovers, they will be removed from the competition.
@@ -76,11 +81,12 @@ const IndexPage = () => {
                 </ul>
               ) : (
                 <ul className="mt-4 ml-4">
-                  <li className="mt-2">● ඔබගේ හඬ කැවීම් පිටපත (script) ඔබගේ නිර්මාණයක් විය යුතුය.</li>
                   <li className="mt-2">
-                    ● අපගේ වෙබ් අඩවියෙහි පළකර ඇති එක් එක් කාණ්ඩ ඔස්සේ වූ වීඩියෝ එකක් තෝරාගෙන එක් වීඩියෝව බැගින් කාණ්ඩ දෙකන් වීඩියෝ clips දෙකක් සඳහා හඬ
-                    කැවීම් කළ යුතුය.
+                    ● උඩුගත කිරීමට ප්‍රථමව අපගේ වෙබ් අඩවිය (https://rusara2023.github.io/official/) හරහා ලියාපදිංචි වී, ලියාපදිංචි අංකයක් ලබා ගත යුතුය.(කාලීන
+                    තොරතුරු වට්ස්ඇප් හරහා දැනුම් දෙනු ලැබේ).
                   </li>
+                  <li className="mt-2">● ඔබගේ හඬ කැවීම් පිටපත (script) ඔබගේ නිර්මාණයක් විය යුතුය.</li>
+                  <li className="mt-2">● cartoon චරිත හඬකැවීම සහ මිනිස් චරිත හඬකැවීම යන අංශ 2ක් ඔස්සේ ඔබ කැමැති ඕනෑම වීඩියෝ 2ක් සඳහා හඬකැවීම් කළ හැක.</li>
                   <li className="mt-2">● වීඩියෝ පටයන් සංසේකරණය හෝ වෙනත් වෙනසේකම් වලට ලක් කිරීම් නොකළ යුතුය.</li>
                   <li className="mt-2">● හඬ කැවීම් සඳහා ‌පෙර දෙබස් (Copyright content) භාවිතා කර තිබුණහොත් තරගයෙන් ඉවත් කරනු ලැ‌බේ.</li>
                   <li className="mt-2">● තරඟකරුවන් තම නිර්මාණ නියමිත දිනට පෙර මාර්ගගත ක්‍රමයෙන් ඉදිරිපත්කල යුතුය.</li>

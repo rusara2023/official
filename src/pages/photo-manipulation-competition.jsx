@@ -36,7 +36,8 @@ const IndexPage = () => {
               </p>
               {isEng ? (
                 <ul className="mt-4 ml-4">
-                  <li className="mt-2">● Must register on the website and get a number before the due date.</li>
+                  <li className="mt-2">● 
+Before uploading you need to register through our website (https://rusara2023.github.io/official/) and get a registration number.(Future Updates will be communicated through WhatsApp)</li>
                   <li className="mt-2">● Contestants must submit their designs online before the due date. </li>
                   <li className="mt-2">
                     ● You should be ready to provide original copies of your design at any time. (Do not provide source file while uploading)
