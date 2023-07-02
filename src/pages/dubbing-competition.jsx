@@ -126,10 +126,18 @@ const IndexPage = () => {
               <div className="w-full flex justify-center">
                 <Link
                   to="/register"
-                  className="bg-red-800 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 mx-auto cursor-pointer hover:shadow-lg shadow-red-400"
+                  className="bg-red-800 m-2 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 cursor-pointer hover:shadow-lg shadow-red-400"
                 >
                   Register Now
                 </Link>
+                <a
+                  href="https://forms.gle/MmZwwNfpUynEVb456"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-blue-800 m-2  rounded text-2xl animate hover:bg-blue-500 hover:scale-110 text-white py-2 px-4 cursor-pointer hover:shadow-lg shadow-red-400"
+                >
+                  Submit Now
+                </a>
               </div>
               <br />
               <br />
