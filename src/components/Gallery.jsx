@@ -1,5 +1,6 @@
 import React from "react";
 import { Gallery } from "react-grid-gallery";
+import SectionTitle from "./SectionTitle";
 
 const images = [
   {
