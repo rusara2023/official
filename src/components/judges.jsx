@@ -38,7 +38,7 @@ function Judges() {
               </div>
             </div>
             <div className="w-full relative group animate">
-              <img src={J3} alt="Dubbing Competition" className="object-cover w-full rounded-full aspect-square animate group-hover:scale-110" />
+              <img src={"J3"} alt="Dubbing Competition" className="object-cover w-full rounded-full aspect-square animate group-hover:scale-110 bg-black" />
               <div className="w-full animate group-hover: p-4 ">
                 <h4 className="text-center text-white text-3xl lg:text-4xl animate group-hover:scale-105">
                   Mr.Pasan Ranaweera
