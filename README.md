@@ -4,6 +4,7 @@
   </a>
 </p>
 <h1 align="center">
+
   Gatsby Minimal Starter
 </h1>
 
