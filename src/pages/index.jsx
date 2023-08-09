@@ -44,7 +44,7 @@ const IndexPage = () => {
                   Register Now
                 </Link>
               </div>
-                            <h4 className="text-3xl text-white animate-pulse text-center font-medium  mt-4 mb-12">Deadline : 2023 August 20</h4>
+                            <h4 className="text-3xl text-white animate-pulse text-center font-medium  mt-4 mb-12">Submission Deadline : 2023 August 20</h4>
 
               <SectionTitle title={"About Us"} />
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full py-4">
