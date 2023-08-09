@@ -12,7 +12,7 @@ function Judges() {
       {({ isEng }) => (
         <main>
           <SectionTitle title={isEng ? "Judge Board" : "විනිශ්චය මණ්ඩලය"} />
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+          <div className="grid grid-cols-2 mx-auto max-w-2\xl gap-8 mt-12">
             <div className="w-full relative group animate">
               <img src={J1} alt="Dubbing Competition" className="object-cover w-full rounded-full aspect-square animate group-hover:scale-110" />
               <div className="w-full animate group-hover: p-4 ">
@@ -37,12 +37,12 @@ function Judges() {
                 </p>
               </div>
             </div>
-            <div className="w-full relative group animate">
+            {/* <div className="w-full relative group animate">
               <img src={"J3"} alt="Dubbing Competition" className="object-cover w-full rounded-full aspect-square animate group-hover:scale-110 bg-black" />
               <div className="w-full animate group-hover: p-4 ">
                 <h4 className="text-center text-white text-3xl lg:text-4xl animate group-hover:scale-105">
                   Mr.Pasan Ranaweera
-                  {/* {isEng ? "Mr.Pasan Ranaweera" : "පසන් රණවීර"} */}
+                  
                 </h4>
                 <p className="text-center text-lg text-gray-600 animate group-hover:scale-105">{isEng ? "Dubbing Competition" : "හඬ කැවීමේ තරඟාවලිය"}</p>
               </div>
@@ -52,11 +52,11 @@ function Judges() {
               <div className="w-full animate group-hover: p-4 ">
                 <h4 className="text-center text-white text-3xl lg:text-4xl animate group-hover:scale-105">
                   Mr.Ishara Wicramasinghe
-                  {/* {isEng ? "Mr.Ishara Wicramasinghe" : "ඉශාර වික්‍රමසිංහ"} */}
+                  
                 </h4>
                 <p className="text-center text-lg text-gray-600 animate group-hover:scale-105">{isEng ? "Dubbing Competition" : "හඬ කැවීමේ තරඟාවලිය"}</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </main>
       )}

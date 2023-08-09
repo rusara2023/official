@@ -152,6 +152,8 @@ Before uploading you need to register through our website (https://rusara2023.gi
                   Submit Now
                 </a>
             </div>
+                          <h4 className="text-3xl text-white animate-pulse text-center font-medium  mt-4">Deadline : 2023 August 20</h4>
+
             <br />
             <br />
             <Judges />

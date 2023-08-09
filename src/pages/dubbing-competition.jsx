@@ -118,6 +118,13 @@ const IndexPage = () => {
                 </ul>
               )}
               <br />
+              <h4 className="text-3xl text-white underline">{isEng ? "Judge Board" : "විනිශ්චය මණ්ඩලය"}</h4>
+              <p className=" text-white text-justify text-2xl font-round">{isEng ? "Mr.Pasan Ranaweera" : "පසන් රණවීර"}</p>
+              <p className=" text-white text-justify text-2xl font-round ">{isEng ? "Mr.Ishara Wicramasinghe" : "ඉශාර වික්‍රමසිංහ"}</p>
+
+              <br />
+              <br />
+
               <a href={PDF} download="Dubbing Competition Rules" target="_blank" rel="noreferrer" className="bg-white text-black p-2 rounded my-4">
                 Download Rules
               </a>
@@ -139,10 +146,12 @@ const IndexPage = () => {
                   Submit Now
                 </a>
               </div>
+              <h4 className="text-3xl text-white animate-pulse text-center font-medium  mt-4">Deadline : 2023 August 20</h4>
+
               <br />
               <br />
             </section>
-            <Judges />
+            {/* <Judges /> */}
           </main>
         </HomeLayout>
       )}
