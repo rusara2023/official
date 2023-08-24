@@ -40,9 +40,9 @@ const IndexPage = () => {
 
             <section className="mt-48">
               <div className="w-full my-8 flex justify-center">
-                <Link to="/register" className="bg-red-800 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 mx-auto cursor-pointer hover:shadow-lg shadow-red-400">
-                  Register Now
-                </Link>
+                <button disabled>
+                  <a class="bg-red-800 rounded text-2xl animate hover:bg-red-500 hover:scale-110 text-white py-2 px-4 mx-auto cursor-pointer hover:shadow-lg shadow-red-400" href="/official/register/">Register Now</a>
+                </button>
               </div>
                             <h4 className="text-3xl text-white animate-pulse text-center font-medium  mt-4 mb-12">Submission Deadline : 2023 August 20</h4>
 
